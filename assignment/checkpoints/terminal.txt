@@ -20,3 +20,6 @@ In order to see the status of what you are working on. i.e. see what's been modi
 It tells Git that you want to add current changes to the staging area to be committed.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 git push -u origin master
+
+
+Travis Huss 10/29/20
