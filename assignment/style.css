@@ -27,12 +27,11 @@
 
 /* Give your page a fun background color */
 body {
-  background-color: #607d8b;
+  background-color: rgb(212,196,177);
 }
 /* Make the header and footer a different color from the background */
 header, footer {
-  background-color: rgb(155, 189, 191, .8);
-  border: 2px solid #1b1b1b;
+  border: 2px solid rgb(20, 40, 50, .8);
   width: 100%;
 }
 /* Align the h1 containing your name in the center of the header*/
@@ -47,6 +46,8 @@ header {
   opacity: 100%;
   grid-area: 1 / 1 / span 3 / 11;
   width: 99%;
+  height: 99%;
+  background-color: rgb(148, 165, 168, .5);
 }
 /* Make your p tag a different color and italic */
 p {
@@ -56,20 +57,22 @@ p {
 }
 /* Put a border around your image */
 .photo {
-  border: 10px double #1b1b1b;
-  border-radius: 15%;
-  grid-area: 3 / 6 / 13 / 10;
+  border: 10px double rgb(20, 40, 50, .8);
+  border-radius: 18%;
+  grid-area: 3 / 5 / 13 / 10;
   z-index: 9;
+  margin: auto;
 }
 /* Change the font-family of your list */
 ul {
   font-family: 'Poppins', sans-serif;
   color: #fff8e1;
-  background-color: rgb(155, 189, 191, .85);
-  border: 2px double #1b1b1b;
+  background-color: rgb(162, 168, 158, .85);
+  border: 2px solid rgb(20, 40, 50, .8);
   padding-right: 10px;
-  grid-area: 8 / 4 / span 2 / span 3;
+  grid-area: 7 / 3 / span 2 / span 4;
   z-index: 10;
+  margin: auto;
 }
 
 body {
@@ -83,6 +86,8 @@ footer {
   grid-area: 12 / 1 / 16 / 11;
   text-align: center;
   width: 99%;
+  height: 100%;
+  background-color: rgba(89, 120, 159, .8);
 }
 
 #connor {
@@ -90,6 +95,6 @@ footer {
   font-size: 10px;
   color: #fff8e1;
   opacity: 75%;
-  grid-area: 11 / 8 / 12 / 9;
+  grid-area: 11 / 7 / 12 / 9;
   z-index: 10;
 }
