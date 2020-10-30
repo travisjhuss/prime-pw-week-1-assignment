@@ -30,13 +30,7 @@ body {
   background-color: rgb(212,196,177);
 }
 /* Make the header and footer a different color from the background */
-header, footer {
-  border: 2px solid rgb(20, 40, 50, .8);
-  width: 100%;
-}
-/* Align the h1 containing your name in the center of the header*/
 header {
-  text-align: center;
   text-transform: uppercase;
   font-weight: : 900;
   font-family: 'Poppins', sans-serif;
@@ -48,6 +42,18 @@ header {
   width: 99%;
   height: 99%;
   background-color: rgb(148, 165, 168, .5);
+}
+
+footer {
+  grid-area: 12 / 1 / 16 / 11;
+  text-align: center;
+  width: 99%;
+  height: 100%;
+  background-color: rgba(89, 120, 159, .8);
+}
+/* Align the h1 containing your name in the center of the header*/
+h1 {
+  text-align: center;
 }
 /* Make your p tag a different color and italic */
 p {
@@ -83,12 +89,9 @@ body {
   margin: auto;
 }
 
-footer {
-  grid-area: 12 / 1 / 16 / 11;
-  text-align: center;
-  width: 99%;
-  height: 100%;
-  background-color: rgba(89, 120, 159, .8);
+header, footer {
+  border: 2px solid rgb(20, 40, 50, .8);
+  width: 100%;
 }
 
 #connor {

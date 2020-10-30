@@ -7,7 +7,7 @@ cd
 # 3 - What is the command for going "up" a folder (to a parent directory)?
 cd ..
 # 4 - What is a quick way to create a new folder?
-type: mkdir 'Folder-Name'
+type: mkdir 'Folder-Name' , in the directory where you want the new folder to be.
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 Empty Folder: nothing will happen. With Files: 'ls' will list the files in the current folder.
 # 6 - What is a quick way to create a new file?
